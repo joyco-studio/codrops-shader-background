@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1f2020;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  min-height: 100svh;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+#webgl {
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+#webgl canvas {
+  background: #1f2020;
+}
+
+* {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+/* Default UI */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  padding: 24px;
+  pointer-events: none;
+  /* mix-blend-mode: difference; */
+}
+
+.header-logo {
+  width: 44px;
+}
+
+/* Smooth SVGs */
+svg {
+  shape-rendering: geometricPrecision;
+  text-rendering: geometricPrecision;
+}
