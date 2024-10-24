@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import '@repo/ui/globals.css'
+import './globals.css'
 import App from './app.tsx'
 import { Header } from './default-ui.tsx'
 import './index.css'

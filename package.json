@@ -12,18 +12,19 @@
   "dependencies": {
     "@react-three/drei": "^9.109.2",
     "@react-three/fiber": "^8.16.8",
-    "@repo/ui": "workspace:*",
     "@tweakpane/core": "^2.0.4",
     "leva": "^0.9.34",
+    "mousetrap": "^1.6.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "@repo/global": "workspace:*",
     "react-tweakpane": "^0.8.1",
+    "tailwindcss-animate": "^1.0.7",
     "three": "^0.167.0",
     "tweakpane": "^4.0.4",
     "zustand": "^4.5.4"
   },
   "devDependencies": {
+    "@types/mousetrap": "^1.6.15",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@types/three": "^0.167.1",

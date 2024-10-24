@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { Canvas, ThreeEvent, useFrame, useThree } from '@react-three/fiber'
 import { shaderMaterial, useTrailTexture } from '@react-three/drei'
-import { useMousetrap } from '@repo/global/hooks/use-mousetrap'
+import { useMousetrap } from './hooks/use-mousetrap'
 import * as THREE from 'three'
 import { useListBlade, useSliderBlade, useTweakpane } from 'react-tweakpane'
 

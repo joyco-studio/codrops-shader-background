@@ -1,4 +1,4 @@
-import { Iso } from "@repo/ui/components/ui/iso"
+import { Iso } from "./ui/iso"
 
 export const Header = () => {
   return (
